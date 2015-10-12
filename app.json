@@ -1,0 +1,10 @@
+{
+  "name": "Inquisition",
+  "description": "Sends out emails at the specified frequency and runs a task in response to the reply",
+  "repository": "https://github.com/donnielrt/inquisition",
+  "logo": "",
+  "keywords": ["node", "express", "static", "react", "webpack", "mongodb"],
+  "addons" : [
+  	"mongohq"
+  ]
+}
