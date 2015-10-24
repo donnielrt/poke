@@ -24,7 +24,7 @@ const renderToMarkup = (alt, state, req, res) => {
     else if (error)
       res.send(500, error.message)
     else if (renderProps == null)
-      res.send(404, 'Not found')
+      res.send(404, 'Not found');
     else
       content = React.renderToString(<RoutingContext {...renderProps} />);
       markup = Iso.render(content, alt.flush());
