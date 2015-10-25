@@ -22,7 +22,7 @@ const renderToMarkup = (alt, state, req, res) => {
     if (redirectLocation)
       res.redirect(301, redirectLocation.pathname + redirectLocation.search)
     else if (error)
-      res.send(500, error.message)
+      res.send(500, error.message);
     else if (renderProps == null)
       res.send(404, 'Not found');
     else

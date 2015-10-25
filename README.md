@@ -1,5 +1,3 @@
-#Inquisition
-Nobody expects the Spanish Inquisition!
-
-Honestly though, I know it's a terrible name. I'm just in favor of imperfect 
-action over paralysis by analysis.
+# Poke
+Sends out email periodically according to the specified schedule, stores the
+result, and takes a set of actions on the reply.

@@ -1,7 +1,7 @@
 {
-  "name": "Inquisition",
+  "name": "poke",
   "description": "Sends out emails at the specified frequency and runs a task in response to the reply",
-  "repository": "https://github.com/donnielrt/inquisition",
+  "repository": "https://github.com/donnielrt/poke",
   "logo": "",
   "keywords": ["node", "express", "static", "react", "webpack", "mongodb"],
   "addons" : [
