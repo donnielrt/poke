@@ -12,7 +12,7 @@ var connect = function() {
     if(err) {
       console.log('Error connecting to: ' + secrets.db + '. ' + err);
     }else {
-      console.log('Succeeded connected to: ' + secrets.db);
+      console.log('Succeeded connecting to: ' + secrets.db);
     }
   });
 };

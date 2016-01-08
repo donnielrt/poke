@@ -5,8 +5,8 @@
   "repository": "https://github.com/donnielrt/poke",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=production node server/index.js",
-    "dev": "NODE_ENV=development node server/index.js",
+    "start": "NODE_ENV=production nodemon server/index.js",
+    "dev": "NODE_ENV=development nodemon server/index.js",
     "devHotLoader": "npm run buildHotLoader && NODE_ENV=devhotloader node server/index.js",
     "build": "webpack --progress --colors --config ./webpack/webpack.config.js",
     "buildHotLoader": "webpack --progress --colors --config ./webpack/webpack-hot-dev-server.config.js",
@@ -25,7 +25,8 @@
     "node": "0.10.x"
   },
   "dependencies": {
-    "agenda": "^0.6.28",
+    "agenda": "rschmukler/agenda",
+    "agenda-ui": "moudy/agenda-ui",
     "alt": "^0.17.1",
     "babel-core": "^5.5.4",
     "babel-eslint": "^3.1.14",
@@ -57,6 +58,7 @@
     "mongoose": "^4.0.5",
     "node-libs-browser": "^0.5.2",
     "node-sass": "^3.1.2",
+    "nodemon": "^1.8.1",
     "passport": "^0.2.2",
     "passport-google-oauth": "^0.2.0",
     "passport-local": "^1.0.0",
